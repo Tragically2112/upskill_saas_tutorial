@@ -36,6 +36,11 @@
   color: white;
 }
 
+//Hide sign in/out message
+.alert-notice {
+  display: none;
+}
+
 .navbar {
   border: none;
 }
