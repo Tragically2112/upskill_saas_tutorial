@@ -59,7 +59,7 @@ $(document).on('turbolinks:load', function(){
   });
   
   //Stripe will return back a card token
-  function stripeResponseHandler(status, reponse) {
+  function stripeResponseHandler(status, response) {
     
     //Get the token from the response
     var token = response.id;
